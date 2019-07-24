@@ -1,0 +1,31 @@
+.BlockBox{
+    background: transparent;
+    padding: 1rem;
+    .box{
+        background: #fff;
+        border-radius: 0.6rem;
+        .headline{
+            background: #f9fafd;
+            height: 4.5rem;
+            padding: 0 1rem;
+            border-radius: 0.6rem 0.6rem 0 0;
+            line-height: 4.5rem;
+            font-size: 1.4rem;
+            i{
+                margin-left: 1rem;
+                font-size: 1.2rem;
+                color: #aaa;
+            }
+            .actions{
+                float:right;
+                font-size: 1.2rem;
+                a{
+                    color: #5c6bc2;
+                    &:hover{
+                        cursor: pointer;
+                     }
+                }
+            }
+        }
+    }
+}

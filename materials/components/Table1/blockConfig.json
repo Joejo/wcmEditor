@@ -1,0 +1,10 @@
+{
+  "name": "表格1",
+  "version": "1.0.0",
+  "alias": "Table1",
+  "file": "screenShot.png",
+  "props": {
+    "row": "0",
+    "col": "0"
+  }
+}

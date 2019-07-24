@@ -1,0 +1,14 @@
+.arrow-bottom {
+    position: absolute;
+    top: 2.6rem;
+    right: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: .6rem;
+    border-color: #aaa;
+    border-bottom-width: 0;
+    border-style: dashed;
+    border-top-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}

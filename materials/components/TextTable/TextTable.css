@@ -1,0 +1,62 @@
+.textTable {
+    font-family: PingFangSC-Regular;
+    margin: 0.5rem 1.5rem;
+
+    table {
+        padding: 0;
+        margin: 0;
+        background: #F5F7FA;
+        width: 100%;
+
+        tr {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            th{
+                font-family: PingFangSC-Regular;
+                font-size: 1.4rem;
+                color: #808E9D;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 2rem;
+                padding: 1rem 0;
+                background: #F5F7FA;
+                border-right: 1px #fff solid;
+                font-weight: 100;
+                -webkit-box-flex: 1;
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+            }
+            th:last-child {
+                border-right: 0;
+            }
+            td{
+                font-family: PingFangSC-Regular;
+                font-size: 1.4rem;
+                color: #13334D;
+                letter-spacing: 0;
+                text-align: center;
+                padding: 1rem 0;
+                line-height: 2rem;
+                background: #F5F7FA;
+                border-right: 1px #fff solid;
+                border-top: 1px #fff solid;
+                -webkit-box-flex: 1;
+                -webkit-flex: 1;
+                -ms-flex: 1;
+                flex: 1;
+            }
+            td:last-child {
+                border-right: 0;
+            }
+
+        }
+    }
+}

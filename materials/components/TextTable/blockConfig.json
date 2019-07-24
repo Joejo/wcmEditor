@@ -1,0 +1,10 @@
+{
+  "name": "申赎规则表格",
+  "version": "1.0.0",
+  "alias": "TextTable",
+  "file": "screenShot.png",
+  "props": {
+    "row": "0",
+    "col": "0"
+  }
+}

@@ -1,0 +1,22 @@
+.PageLists{
+    height: 450px;
+    overflow: scroll;
+    ul{
+        li{
+            height: 5rem;
+            overflow: hidden;
+            line-height: 5rem;
+            padding: 0 0 0 1rem;
+            font-size: 1.2rem;
+            border-bottom: 0.1rem solid #eee;
+            &:hover{
+                cursor: pointer;
+             }
+             span{
+                 float: right;
+                 padding-right: 1rem;
+                 color: #5c6bc2;
+             }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.BlockComponent{
+    background: #fff;
+    width: 22rem;
+    height: 20rem;
+    margin: 0 2rem 2rem 0;
+    border: 0.2rem solid #eee;
+    border-radius: .8rem;
+    color: #aaa;
+    &:nth-child(odd){
+        margin-left: 1.5rem;
+     }
+    &:hover{
+        border: .2rem solid #5c6bc2;
+        .block{
+            .screenshop{
+                border-bottom: .1rem solid #5c6bc2;
+            }
+        }
+     }
+    .block{
+        .screenshop{
+            height: 14.8rem;
+            line-height: 12.8rem;
+            padding: 1rem;
+            border-bottom: .1rem solid #eee;
+            img{
+                width: 100%;
+                max-height: 12.6rem;
+            }
+            &:hover{
+                 cursor: pointer;
+             }
+        }
+        .info{
+            &:hover{
+                 cursor: default;
+             }
+            display: flex;
+            padding: .6rem 1rem;
+            font-size: 1.4rem;
+            .lf{
+                flex: 1;
+                .name{
+                    color: #777;
+                }
+                .alias{
+                    font-size: 1.2rem;
+                }
+            }
+            .rt{
+                flex: 1;
+                div{
+                    display:inline-block;
+                    span{
+                        display: inline-block;
+                        min-width: 3.5rem;
+                        max-width: 5rem;
+                    }
+                    input{
+                        width: 4rem;
+                        border: 0;
+                        border-bottom: .1rem solid #ccc;
+                    }
+                }
+            }
+        }
+    }
+}

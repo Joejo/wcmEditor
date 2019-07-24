@@ -1,0 +1,64 @@
+.Components{
+    position: relative;
+    height: 100%;
+    .materialsMain{
+        background: #fff;
+        height: calc(100% - 60px);
+        .materialsLists{
+            width: calc(100% - 24.2rem);
+            height: calc(100% - 8rem);
+            padding-bottom: 1rem;
+            .header{
+                width: 100%;
+                padding: 2rem;
+                font-size: 1.4rem;
+            }
+            .materials{
+                width: 100%;
+                height: calc(100% - 4rem);
+                overflow: scroll;
+            }
+        }
+        .choosedLists{
+            height: calc(100% - 8rem);
+            background: #f1f1f1;
+            .header{
+                padding: 2rem;
+                font-size: 1.4rem
+            }
+            .choosedBlocks{
+                width: 100%;
+                height: calc(100% - 4rem);
+                overflow: scroll;
+            }
+        }
+        .footer{
+            background: #f1f1f1;
+            height: 8rem;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+            button{
+                background: #fc7946;
+                display: inline-block;
+                padding: 0 3rem;
+                margin: 2.3rem 2rem 0 0;
+                border: 0;
+                border-radius: 1.5rem;
+                line-height: 3rem;
+                color: #fff;
+                font-size: 1.6rem;
+                &:hover{
+                    cursor: pointer;
+                 }
+                &.cancle{
+                    background: #fff;
+                    border: .1rem solid #ddd;
+                    color: #555;
+                 }
+            }
+        }
+    }
+}

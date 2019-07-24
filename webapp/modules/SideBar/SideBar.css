@@ -1,0 +1,31 @@
+.SideBar{
+    background: #5c6bc2;
+    width: 8rem;
+    position: relative;
+    color: #fff;
+    ul{
+        li{
+            height: 8rem;
+            line-height: 8rem;
+            text-align: center;
+            border-bottom: 0.1rem solid #fff;
+            font-size: 1.3rem;
+            &.active{
+                font-weight: bolder;
+                font-size: 16px;
+             }
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .help{
+        position: absolute;
+        bottom: 50px;
+        width:100%;
+        text-align: center;
+        a{
+            color: #fff;
+        }
+    }
+}

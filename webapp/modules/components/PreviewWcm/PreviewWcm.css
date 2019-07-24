@@ -1,0 +1,56 @@
+.PreviewWcm{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition:2s;
+    .mask{
+        background: #5c6bc2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: .5;
+    }
+    .previewWrap{
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        width: 414px;
+        margin: 0 auto;
+        padding: 0;
+        .button{
+            position: relative;
+            text-align: center;
+            button{
+                background: #fc7946;
+                display: inline-block;
+                padding: 0 3rem;
+                margin: 0 2rem 0 0;
+                border: 0;
+                border-radius: 1.5rem;
+                line-height: 3rem;
+                color: #fff;
+                font-size: 1.6rem;
+                &:hover{
+                cursor: pointer;
+            }
+            &.cancle{
+                background: #fff;
+                border: .1rem solid #ddd;
+                color: #555;
+                }
+            }
+        }
+    }
+    .previewBox{
+        background: #fff;
+        height: calc(100% - 6rem);
+        margin-bottom: 20px;
+        padding: 2rem;
+        border-radius: .3rem;
+        overflow: scroll;
+    }
+}

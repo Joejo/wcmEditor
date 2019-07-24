@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CLOSE_EDITBLOCK = 'CLOSE/EDITBLOCK';
+exports.OPEN_EDITBLOCK = 'OPEN/EDITBLOCK';
+exports.ADD_BLOCK = 'ADD/BLOCK';
+exports.DELETE_BLOCK = 'DELETE/BLOCK';
+exports.ADD_MODULE = 'ADD/MODULE';
+exports.DELETE_MODULE = 'DELETE/MODULE';
+exports.OPEN_PROGRAM_LIST = 'OPEN/PROGRAM/LIST';
+exports.HIDE_PROGRAM_LIST = 'HIDE/PROGRAM/LIST';
+exports.OPEN_CREATE_PROJECT = 'OPEN/CREATE/PROJECT';
+exports.HIDE_CREATE_PROJECT = 'HIDE/CREATE/PROJECT';
+exports.CHANGE_PROJECT = 'CHANGE/PROJECT';
+exports.SET_PAGE_LISTS = 'SET/PAGE/LISTS';
+//# sourceMappingURL=ActionType.js.map

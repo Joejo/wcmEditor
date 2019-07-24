@@ -1,0 +1,18 @@
+.TitleWithText{
+  margin:0 1.5rem;
+}
+.titleAssistant {
+  font-size: 1.5rem;
+  color: #13334D;
+  letter-spacing: 0;
+  margin: 1.5rem 0 0;
+  line-height: 2.1rem;
+  font-weight: bold;
+}
+.textCont {
+  font-size: 1.4rem;
+  color: #808E9D;
+  letter-spacing: 0;
+  margin: 0.5rem 0;
+  line-height: 2rem;
+}

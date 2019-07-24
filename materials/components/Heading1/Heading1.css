@@ -1,0 +1,18 @@
+.Heading1{
+  margin: 0 1.5rem;
+  .titleMain {
+    font-size: 1.6rem;
+    color: #13334D;
+    letter-spacing: 0;
+    margin: 1rem 0 1.5rem;
+    line-height:2.2rem;
+    font-weight: bold;
+    i {
+      width: 0.4rem;
+      height: 1.2rem;
+      display: inline-block;
+      margin-right: 0.6rem;
+      background-color: #4E7DE4;
+    }
+  }
+}

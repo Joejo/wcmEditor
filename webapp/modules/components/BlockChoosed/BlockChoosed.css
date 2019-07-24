@@ -1,0 +1,38 @@
+.BlockChoosed{
+    padding: 0 2rem 2rem;
+    .block{
+        background: #fff;
+        position: relative;
+        border-radius: .8rem;
+        border: .2rem solid #eee;
+        &:hover{
+             border: .2rem solid #5c6bc2;
+         }
+        .screenshot{
+            height: 100px;
+            line-height: 80px;
+            text-align: center;
+            img{
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+        .control{
+            position: absolute;
+            top: .5rem;
+            right: .5rem;
+            span{
+                &:hover{
+                    color: #fc7946;
+                 }
+            }
+        }
+        .name{
+            position: absolute;
+            left: .5rem;
+            bottom: .5rem;
+            color: #5c6bc2;
+            font-size: 1.4rem;
+        }
+    }
+}
