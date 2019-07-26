@@ -253,7 +253,7 @@ class EditBlock extends React.Component{
                         <section className="editArea">
                             {
                                 modules ? modules.map((item, index) => {
-                                    const Default = item.default;
+                                    const Default = item.default.bind(null, blocks[index].props);
                                     return (
                                         <div key={index}>
                                             <Default />

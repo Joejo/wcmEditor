@@ -24,6 +24,7 @@ class PreviewWcm extends React.Component{
                 <div className="mask"></div>
                 <div className="previewWrap">
                     <div className="previewBox">
+                        <p className="gap-nav"></p>
                         <section ref="previewArea" className="previewArea" dangerouslySetInnerHTML={{__html: fileContent}}>
                         </section>
                     </div>

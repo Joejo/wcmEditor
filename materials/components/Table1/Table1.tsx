@@ -6,7 +6,6 @@ export default function Table1(props){
         row,
         col
     } = props;
-
     let tableList = () => Array(Number(row)).fill(row).map(m => {
         let tds = Array(Number(col)).fill(col).map((n, i) => {
             return <td>{ n }</td>

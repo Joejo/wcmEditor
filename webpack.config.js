@@ -37,6 +37,13 @@ module.exports = {
                 }, {
                     loader: 'postcss-loader'
                 }]
+            },
+            {
+                test: /\.png$/,
+                exclude: /node_modules/,
+                use: [{
+                    loader: 'url-loader?limit=8192'
+                }]
             }
         ]
     },

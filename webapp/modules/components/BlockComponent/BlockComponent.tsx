@@ -70,7 +70,6 @@ const mapDispatchToProps = (dispatch) => {
                 const inputs = wrapNode.querySelectorAll('input');
                 Object.keys(props).forEach(prop => {
                     const inputProp: any = Array.from(inputs).filter((input: any) => {
-                        console.log(input, 'input');
                         if(input.className === prop){
                             return input;
                         }

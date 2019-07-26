@@ -8,6 +8,7 @@
     "build": "webpack --watch",
     "start": "./node_modules/.bin/webpack-dev-server --open",
     "elec": "electron .",
+    "elec-local": "./node_modules/electron/cli.js .",
     "packager": "electron-packager . 'Wcm-Editor' --platform=darwin --arch=x64 --icon=app.icns --overwrite=true --out=./dist --app-version=1.0.0 --ignore=\"(src|docs|.gitignore|LICENSE|README.md|webpack.config*)\"",
     "packageDarwin": "electron-packager . 'Wcm-Editor' --platform=darwin --arch=x64 --icon=app.icns --out=./dist --asar --app-version=1.0.0 --ignore=\"(dist|src|docs|.gitignore|LICENSE|README.md|webpack.config*|node_modules)\"",
     "packageDarwin2": "electron-packager . 'Wcm-Editor' --platform=darwin --arch=x64 --icon=app.icns --out=./dist --asar --app-version=1.0.0",
@@ -18,7 +19,6 @@
   "author": "Joe.Huanng",
   "license": "ISC",
   "dependencies": {
-    "electron": "^4.1.4",
     "electron-is": "^3.0.0",
     "electron-store": "^3.2.0",
     "react": "^16.8.6",
@@ -44,6 +44,7 @@
     "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.4.3",
+    "url-loader": "^2.0.1",
     "webpack": "^4.0.0",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.1.4"
